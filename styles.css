@@ -2,4 +2,18 @@ html,
 body {
 	box-sizing: border-box;
 	margin: 0;
+	color: white;
+	background-color: #121212;
+}
+h1 {
+	font-family: brother-1816, sans-serif;
+}
+h2 {
+	font-family: brother-1816, sans-serif;
+}
+h3 {
+	font-family: brother-1816, sans-serif;
+}
+p {
+	font-family: rooney-web, serif;
 }
