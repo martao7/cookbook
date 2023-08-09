@@ -19,95 +19,76 @@ p {
 }
 
 #recipe-site {
-	border: 6px solid rgb(47, 71, 233);
+	/* border: 6px solid rgb(47, 71, 233); */
 	padding-left: 120px;
 	padding-right: 120px;
 	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-bottom: 80px; 
 }
 
 #picture {
-	border: 4px solid red;
-	height: 400px;
-	/* width:600px;
-	height:400px; */
-	/* width: 1372px;
-	height: 476px; */
-	/* display: flex; 
-    flex-wrap: wrap;
-    justify-content:center;  */
-	/* width:600;
-	height:300; */
-	
-	
-	
-}
-
-.pict {
-	border: 4px solid rgb(81, 18, 87);
-	/* height:300px; */
-	/* width:1200px;
-	height:800px; */
-	max-width: 100%;
-	height: auto;
-	
+	/* border: 4px solid red; */
+	width: 100%;
+	margin: auto; 
+	/* position:absolute; */
+	width: fit-content;
+	height:auto;
 }
 
 #picture h1 {
-	padding-left: 50px;
+	padding-right: 120px;
 	padding-left: 120px; 
+	padding-top: 400px;
+	padding-bottom: 20px;
 }
 
-#recipe-text {
-	border: 4px solid greenyellow;
-	/* width:1372px; */
-	
-}
 
 .prep-time {
-	border: 2px solid rgb(252, 47, 255);
-	/* padding-left: 50px; */
+	/* border: 2px solid rgb(252, 47, 255); */
 	padding-top: 30px;
 	padding-bottom: 20px;
 	padding-left: 120px; 
-	
 }
 
 
 .description {
-	border: 4px solid rgb(208, 129, 44);
-	/* padding-right: 10px; */
+	/* border: 4px solid rgb(208, 129, 44);  */
 	padding-left: 10px; 
 	padding-right: 10px; 
 	padding-top: 40px;
 	padding-bottom: 40px;
-	text-align: center;
+	text-align:justify;
 }
 
 
 .nutriAndIngred {
-	border: 6px solid rgb(177, 97, 156);
+	/* border: 6px solid rgb(177, 97, 156); */
 	display: flex;
     justify-content: space-between;
 }
 
 .nutritions {
-	border: 2px solid rgb(241, 255, 47);
+	/* border: 2px solid rgb(241, 255, 47); */
 	list-style: none;
-	padding-left: 100px;  
+	padding-left: 10px;  
 	padding-right: 200px;
 	padding-top: 20px;
 }
 .nutritions li{
 	list-style: none;
+	padding-right: 120px;
 }
 
 .ingredients {
-	border: 2px solid rgb(47, 217, 255);
-	/* display: flex;
-    align-items: center;  */
+	/* border: 2px solid rgb(47, 217, 255); */
 	padding-left: 100px;  
-	padding-right: 200px;
+	padding-right: 150px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.macAndCheese {
+	/* border: 4px solid rgb(81, 18, 87); */
+	background-image: url("https://reisehappen.de/wp-content/uploads/2021/01/MacandCheese-7-720x480.jpg");
+	border-radius: 0.5em;
 }
