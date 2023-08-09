@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cookbook</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/aia8uri.css" />
-	<link rel="icon" type="image/x-icon" href="Pictures/favicon.ico" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-	<header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cookbook</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="https://use.typekit.net/aia8uri.css" />
+		<link rel="icon" type="image/x-icon" href="Pictures/favicon.ico" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
 			<nav>
 				<ul>
 					<li>
@@ -25,7 +25,7 @@
 					</li>
 					<li><a href="recipe-overview.html">Recipes</a></li>
 					<li><a href="#">Download App</a></li>
-					<li><a href="#aboutus">About us</a></li>
+					<li><a href="index.html#aboutus">About us</a></li>
 				</ul>
 				<div class="searchbar">
 					<i class="searchicon"></i>
@@ -38,164 +38,209 @@
 				</div>
 			</nav>
 		</header>
-    <!--Slide-->
-	<main>
-    <section id="firstPage">
-      <div id="slideRecipe" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#slideRecipe"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#slideRecipe"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#slideRecipe"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#slideRecipe"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item transbox active">
-            <div class="background">
-            <img
-              src="images/original-pasta-recipe-2.png"
-              class="d-block w-100"
-              alt="Original Italian Pasta"
-            />
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h3>The original pasta recipe from an Italian Grandma</h3>
-              <a href="#" class="btn btn-primary">Get recipe</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/italian-marinated-chicken-2.png"
-              class="d-block w-100"
-              alt="Marinated chicken"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Super juicy grilled chicken with a secret recipe</h3>
-              <a href="#" class="btn btn-primary">Get recipe</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/mandarinen-spekulatius-dessert-2.png"
-              class="d-block w-100"
-              alt="French mandarine dessert"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Savoury dessert recipe for a summer party</h3>
-              <a href="#" class="btn btn-primary">Get recipe</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/chinese-soup-dumplings-2.png"
-              class="d-block w-100"
-              alt="Chinese dumpling soup recipe"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Learn to make dumpling as in Chinese restaurant</h3>
-              <a href="#" class="btn btn-primary">Get recipe</a>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#slideRecipe"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#slideRecipe"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
-      </div>
-    </section>
+		<!--Slide-->
+		<main>
+			<section id="firstPage">
+				<div id="slideRecipe" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#slideRecipe"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#slideRecipe"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#slideRecipe"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#slideRecipe"
+							data-bs-slide-to="3"
+							aria-label="Slide 4"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item transbox active">
+							<div class="background">
+								<img
+									src="images/original-pasta-recipe-2.png"
+									class="d-block w-100"
+									alt="Original Italian Pasta"
+								/>
+							</div>
+							<div class="carousel-caption d-none d-md-block">
+								<h3>The original pasta recipe from an Italian Grandma</h3>
+								<a href="#" class="btn btn-primary">Get recipe</a>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="images/italian-marinated-chicken-2.png"
+								class="d-block w-100"
+								alt="Marinated chicken"
+							/>
+							<div class="carousel-caption d-none d-md-block">
+								<h3>Super juicy grilled chicken with a secret recipe</h3>
+								<a href="#" class="btn btn-primary">Get recipe</a>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="images/mandarinen-spekulatius-dessert-2.png"
+								class="d-block w-100"
+								alt="French mandarine dessert"
+							/>
+							<div class="carousel-caption d-none d-md-block">
+								<h3>Savoury dessert recipe for a summer party</h3>
+								<a href="#" class="btn btn-primary">Get recipe</a>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="images/chinese-soup-dumplings-2.png"
+								class="d-block w-100"
+								alt="Chinese dumpling soup recipe"
+							/>
+							<div class="carousel-caption d-none d-md-block">
+								<h3>Learn to make dumpling as in Chinese restaurant</h3>
+								<a href="#" class="btn btn-primary">Get recipe</a>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#slideRecipe"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#slideRecipe"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					</button>
+				</div>
+			</section>
 
-    <!--Recipes of the week-->
-    <section id="second-page">
-      <div class="weekly-title">
-        <h1>Easy recipes for a busy week</h1>
-      </div>
-      <div class="row">
-        <div class="card text-center" style="width: 22rem;">
-            <img src="images/Spinach-Strawberry-Salad-square.png" class="card-img-top" alt="strawberry Salad Recipe" width="300px" height="300px">
-            <div class="card-body">
-              <h5 class="card-title">Summer Strawberry Salad</h5>
-              <p class="card-text">
-                Elevate summer dining with our Strawberry Salad. Juicy strawberries, crisp greens, and a burst of flavors create a refreshing seasonal delight.</p>
-              <a href="#" class="btn btn-primary">Get recipe</a>
-            </div>
-      </div>
+			<!--Recipes of the week-->
+			<section id="second-page">
+				<div class="weekly-title">
+					<h1>Easy recipes for a busy week</h1>
+				</div>
+				<div class="row">
+					<div class="card text-center" style="width: 22rem">
+						<img
+							src="images/Spinach-Strawberry-Salad-square.png"
+							class="card-img-top"
+							alt="strawberry Salad Recipe"
+							width="300px"
+							height="300px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Summer Strawberry Salad</h5>
+							<p class="card-text">
+								Elevate summer dining with our Strawberry Salad. Juicy
+								strawberries, crisp greens, and a burst of flavors create a
+								refreshing seasonal delight.
+							</p>
+							<a href="#" class="btn btn-primary">Get recipe</a>
+						</div>
+					</div>
 
-          <div class="card text-center" style="width: 22rem;">
-            <img src="images/hat-yai-fried-chicken-square.png" class="card-img-top" alt="Chicken in Chinease Style" width="300px" height="300px">
-            <div class="card-body">
-              <h5 class="card-title">Chicken in Chinese style</h5>
-              <p class="card-text">Experience bold flavors with our Chinese-style chicken. Tender and aromatic, each bite is a journey to authentic Asian cuisine.</p>
-              <a href="#" class="btn btn-primary">Get recipe</a>
-            </div>
-          </div>
-      
+					<div class="card text-center" style="width: 22rem">
+						<img
+							src="images/hat-yai-fried-chicken-square.png"
+							class="card-img-top"
+							alt="Chicken in Chinease Style"
+							width="300px"
+							height="300px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Chicken in Chinese style</h5>
+							<p class="card-text">
+								Experience bold flavors with our Chinese-style chicken. Tender
+								and aromatic, each bite is a journey to authentic Asian cuisine.
+							</p>
+							<a href="#" class="btn btn-primary">Get recipe</a>
+						</div>
+					</div>
 
-          <div class="card text-center" style="width: 22rem;">
-            <img src="images/lemon-cake-square.png" class="card-img-top" alt="Lemon cake recipe" width="300px" height="300px">
-            <div class="card-body">
-              <h5 class="card-title">Best lemon cake</h5>
-              <p class="card-text">Savor pure citrus bliss with our Lemon Cake. Moist, tangy, and perfectly sweet, it's a delightful treat for every palate.</p>
-              <a href="#" class="btn btn-primary">Get recipe</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+					<div class="card text-center" style="width: 22rem">
+						<img
+							src="images/lemon-cake-square.png"
+							class="card-img-top"
+							alt="Lemon cake recipe"
+							width="300px"
+							height="300px"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Best lemon cake</h5>
+							<p class="card-text">
+								Savor pure citrus bliss with our Lemon Cake. Moist, tangy, and
+								perfectly sweet, it's a delightful treat for every palate.
+							</p>
+							<a href="#" class="btn btn-primary">Get recipe</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
-    <!--Cookbook Features-->
-    <section id="third-page">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Cookbook Features</h2>
-          <p>Welcome to a cookbook crafted just for you, the young and the bustling! In a world that spins faster than ever, finding time to cook can be a challenge. But fear not, because we've got your back. "Quick & Tasty Eats" is here to make your kitchen adventures exciting, flavorful, and oh-so-easy.
-            We get it.</p>
-           <p>Between work, classes, and endless to-dos, whipping up a meal feels like a mission impossible. 
-            But guess what? You don't need to be a master chef to create scrumptious dishes that make your taste buds dance. This cookbook is your secret weapon, filled with recipes that are a breeze to make, without sacrificing on flavor.
-            From hearty breakfasts that kickstart your day to speedy dinners that satisfy after a long haul, we've gathered a collection of recipes tailored for your on-the-go lifestyle. No complicated techniques or rare ingredients – just good food made simple. Whether you're a cooking newbie or a busy kitchen connoisseur, these recipes are your ticket to deliciousness.</p>
-          <a href="#" class="btn btn-primary">Read more</a>
-        </div>
-        <div class="col-md-6">
-          <img src="images/Cookbook for busy young people.png" alt="Download App busycookbook" width="600px" height="500px">
-        </div>
-      </div>
-    </section>
-</main>
-<!--End of Anh's part-->
+			<!--Cookbook Features-->
+			<section id="third-page">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Cookbook Features</h2>
+						<p>
+							Welcome to a cookbook crafted just for you, the young and the
+							bustling! In a world that spins faster than ever, finding time to
+							cook can be a challenge. But fear not, because we've got your
+							back. "Quick & Tasty Eats" is here to make your kitchen adventures
+							exciting, flavorful, and oh-so-easy. We get it.
+						</p>
+						<p>
+							Between work, classes, and endless to-dos, whipping up a meal
+							feels like a mission impossible. But guess what? You don't need to
+							be a master chef to create scrumptious dishes that make your taste
+							buds dance. This cookbook is your secret weapon, filled with
+							recipes that are a breeze to make, without sacrificing on flavor.
+							From hearty breakfasts that kickstart your day to speedy dinners
+							that satisfy after a long haul, we've gathered a collection of
+							recipes tailored for your on-the-go lifestyle. No complicated
+							techniques or rare ingredients – just good food made simple.
+							Whether you're a cooking newbie or a busy kitchen connoisseur,
+							these recipes are your ticket to deliciousness.
+						</p>
+						<a href="#" class="btn btn-primary">Read more</a>
+					</div>
+					<div class="col-md-6">
+						<img
+							src="images/Cookbook for busy young people.png"
+							alt="Download App busycookbook"
+							width="600px"
+							height="500px"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!--End of Anh's part-->
 
-<footer>
+		<footer>
 			<div class="footer-container">
 				<ul class="footer-nav">
 					<li><a href="#">Home</a></li>
@@ -261,15 +306,15 @@
 			</div>
 		</footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+			integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
