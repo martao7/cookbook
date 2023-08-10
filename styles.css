@@ -204,22 +204,16 @@ ul.footer-legal > li:last-child::after {
 }
 
 #recipe-site {
-  /* border: 6px solid rgb(47, 71, 233); */
-  /* padding-left: 120px;
-	padding-right: 120px;
-	padding-top: 80px;
-	padding-bottom: 80px; */
-  width: 70%;
-  margin: auto;
+	width: 70%;
+	margin: auto;
 }
 
 #picture {
-  /* border: 4px solid red; */
-  width: 100%;
-  margin: auto;
-  /* position:absolute; */
-  width: fit-content;
-  height: auto;
+	/* border: 4px solid red; */
+	width: 100%;
+	margin: auto;
+	width: fit-content;
+	height: auto;
 }
 
 #picture h1 {
@@ -238,46 +232,90 @@ ul.footer-legal > li:last-child::after {
 }
 
 .description {
-  /* border: 4px solid rgb(208, 129, 44);  */
-  /* padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 40px;*/
-  padding-bottom: 60px;
-  width: 80%;
-  margin: auto;
-  text-align: justify;
+	padding-bottom: 60px;
+	width: 80%;
+	margin: auto;
+	text-align: justify;
 }
 .nutriAndIngred {
-  /* border: 6px solid rgb(177, 97, 156); */
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 .nutritions {
-  /* border: 2px solid rgb(241, 255, 47); */
-  list-style: none;
-  padding-left: 10px;
-  padding-right: 200px;
-  padding-top: 20px;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 200px;
+	padding-top: 20px;
 }
 .nutritions li {
   list-style: none;
   padding-right: 120px;
 }
 .ingredients {
-  /* border: 2px solid rgb(47, 217, 255); */
-  padding-left: 100px;
-  padding-right: 150px;
-  padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/* <!-- <about us section> --> */
+
+#aboutUs {
+  /* border: 8px solid yellowgreen;  */
+  background-color: rgb(60, 20, 20);
+  width: 100%;
+  /* height: 80vh;  */
+	margin: auto;
+  padding: 4rem 6rem;
+}
+
+.ourTeam {
+  /* border: 5px solid rebeccapurple;  */
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  padding: 2rem 2rem;
+}
+
+.ourPhotos {
+  /* border: 5px solid rgb(180, 172, 64);  */
+  display: flex;
+	flex-wrap: wrap;
+  gap: 80px; 
+}
+
+.ourPhotos > div {
+  border: 1px solid rgb(217, 208, 210);
+  background-color: none;
+  width: 220px;
+} 
+
+.ourPhotos h5 {
+  padding-top: 25px;
   padding-bottom: 20px;
 }
+
+.ourTeam h1 {
+  /* border: 8px solid rgb(205, 97, 50);  */
+  padding-bottom: 60px;
+}
+
+/* end of <!-- <about us section> --> */
+
+
+
 .macAndCheese {
-  /* border: 4px solid rgb(81, 18, 87); */
-  background-image: url("https://reisehappen.de/wp-content/uploads/2021/01/MacandCheese-7-720x480.jpg");
-  border-radius: 0.5em;
-  width: 100vw;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+	background-image: url("https://realfood.tesco.com/media/images/1400x919-MacaroniChorizoCheeseBake-df3ec2b6-6733-47ba-b187-bb75985f0bb3-0-1400x919.jpg");
+	width: 100vw;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
 }
 .mock-up {
   padding-right: 0;
@@ -350,4 +388,12 @@ main .card img {
   width: 90%;
   margin: auto;
   object-fit: cover;
+}
+
+.tomatoSoup {
+  background-image: url("https://trinkreif.de/wp-content/uploads/leckere-tomatensuppe-einfach-basilikum-ohne-sahne-rezept.jpg");
+  width: 100vw;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
 }
