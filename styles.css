@@ -1,205 +1,206 @@
 html,
 body {
-	box-sizing: border-box;
-	margin: 0;
-	color: white;
-	background-color: #121212;
-	scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+  background-color: #121212;
+  scroll-behavior: smooth;
 }
 
 h1 {
-	font-family: brother-1816, sans-serif;
+  font-family: brother-1816, sans-serif;
 }
 h2 {
-	font-family: brother-1816, sans-serif;
+  font-family: brother-1816, sans-serif;
 }
 h3 {
-	font-family: brother-1816, sans-serif;
+  font-family: brother-1816, sans-serif;
 }
 p,
 a {
-	font-family: rooney-web, serif;
+  font-family: rooney-web, serif;
 }
 main {
-	padding-top: 4rem;
+  padding-top: 4rem;
 }
 header {
-	background-color: rgba(255, 255, 255, 0.9);
-	width: 100vw;
-	margin: 0;
-	position: fixed;
-	z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100vw;
+  margin: 0;
+  position: fixed;
+  z-index: 1000;
 }
 header ul {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	list-style: none;
-	margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+  margin: 0;
 }
 nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vw;
 }
 header li {
-	margin: 0.5rem 2rem;
+  margin: 0.5rem 2rem;
 }
 header a,
 footer a {
-	color: black;
-	text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 header img {
-	height: 3em;
+  height: 3em;
 }
 header a:visited,
 footer a:visited {
-	color: black;
+  color: black;
 }
 .searchbar {
-	height: fit-content;
-	display: flex;
-	align-items: center;
+  height: fit-content;
+  display: flex;
+  align-items: center;
 }
 .searchbar input {
-	width: 300px;
-	height: 2rem;
-	border-radius: 35px;
-	border: none;
-	background-color: rgba(255, 118, 40, 0.5);
+  width: 300px;
+  height: 2rem;
+  border-radius: 35px;
+  border: none;
+  background-color: rgba(255, 118, 40, 0.5);
 }
 .searchinput {
-	position: relative;
-	text-indent: 1.7rem;
-	padding: 0.5rem;
+  position: relative;
+  text-indent: 1.7rem;
+  padding: 0.5rem;
 }
 .searchicon {
-	content: url(https://img.icons8.com/ios-filled/50/000000/search--v1.png);
-	height: 1.5rem;
-	position: absolute;
-	margin-left: 0.4rem;
+  content: url(https://img.icons8.com/ios-filled/50/000000/search--v1.png);
+  height: 1.5rem;
+  position: absolute;
+  margin-left: 0.4rem;
 }
 .searchinput::placeholder {
-	font-family: rooney-web, serif;
+  font-family: rooney-web, serif;
 }
 footer {
-	color: black;
-	background-color: rgba(255, 255, 255, 0.9);
-	padding-right: 40%;
-	display: flex;
-	align-items: center;
-	padding: 2rem;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-right: 40%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
 }
 .footer-container {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer ul {
-	list-style: none;
+  list-style: none;
 }
 .footer-social {
-	display: flex;
-	padding: 0;
+  display: flex;
+  padding: 0;
 }
 .footer-social img {
-	width: 30px;
-	margin-right: 5px;
+  width: 30px;
+  margin-right: 5px;
 }
 .footer-contact {
-	padding-left: 0rem;
+  padding-left: 0rem;
 }
 .footer-legal {
-	width: 100%;
-	display: flex;
-	margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
 }
 ul.footer-legal > li::after {
-	content: "|";
-	margin: 1em;
+  content: "|";
+  margin: 1em;
 }
 ul.footer-legal > li:last-child::after {
-	content: none;
+  content: none;
 }
 
 .carousel-item img {
-	opacity: 0.7;
-	width: 100%;
+  opacity: 0.7;
+  width: 100%;
 }
 .carousel-caption h3 {
-	font-size: 2rem;
-	padding-bottom: 3rem;
+  font-size: 2rem;
+  padding-bottom: 3rem;
 }
 .carousel-caption {
-	top: 50%;
-	transform: translateY(-50%);
-	bottom: initial;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
 }
 .carousel-caption a {
-	background-color: #db7a07;
-	border: none;
-	font-weight: bold;
-	font-size: 1.25rem;
-	padding: 0.5rem 1.5rem;
-	color: black;
+  background-color: #db7a07;
+  border: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 0.5rem 1.5rem;
+  color: black;
 }
 
 #second-page {
-	width: 100%;
-	padding: 5rem 0rem;
+  width: 100%;
+  padding: 5rem 0rem;
 }
 
 .weekly-title h1 {
-	padding-bottom: 5rem;
-	text-align: center;
-	color: #db7a07;
-	font-size: bold;
+  padding-bottom: 5rem;
+  text-align: center;
+  color: #db7a07;
+  font-size: bold;
 }
 .row {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .card img {
-	width: 300px;
-	height: 300px;
-	padding-top: 0.5rem;
+  width: 300px;
+  height: 300px;
+  padding-top: 0.5rem;
 }
 .card {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #ebcfae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebcfae;
 }
 .card-body a {
-	background-color: #db7a07;
-	border: none;
+  background-color: #db7a07;
+  border: none;
+  margin-top: 1rem;
 }
 
 #third-page {
-	width: 100%;
-	padding: 5rem 6rem;
-	background-color: #ebcfae;
+  width: 100%;
+  padding: 5rem 6rem;
+  background-color: #ebcfae;
 }
 .col-md-6 h2 {
-	color: #db7a07;
-	font-size: bold;
-	padding-bottom: 2rem;
+  color: #db7a07;
+  font-size: bold;
+  padding-bottom: 2rem;
 }
 .col-md-6 a {
-	background-color: #db7a07;
-	border: none;
-	font-weight: bold;
-	font-size: 1.25rem;
-	color: black;
+  background-color: #db7a07;
+  border: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: black;
 }
 .col-md-6 p {
-	text-align: justify;
-	padding-bottom: 1rem;
-	padding-right: 3rem;
-	color: #121212;
+  text-align: justify;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  color: #121212;
 }
 
 #recipe-site {
@@ -216,18 +217,18 @@ ul.footer-legal > li:last-child::after {
 }
 
 #picture h1 {
-	text-shadow: 0px 0px 30px black;
-	padding-right: 120px;
-	padding-left: 120px;
-	padding-top: 400px;
-	padding-bottom: 20px;
+  text-shadow: 0px 0px 30px black;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 400px;
+  padding-bottom: 20px;
 }
 
 .prep-time {
-	/* border: 2px solid rgb(252, 47, 255); */
-	padding-top: 40px;
-	padding-bottom: 20px;
-	padding-left: 120px;
+  /* border: 2px solid rgb(252, 47, 255); */
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 120px;
 }
 
 .description {
@@ -247,8 +248,8 @@ ul.footer-legal > li:last-child::after {
 	padding-top: 20px;
 }
 .nutritions li {
-	list-style: none;
-	padding-right: 120px;
+  list-style: none;
+  padding-right: 120px;
 }
 .ingredients {
 	padding-left: 100px;
@@ -315,6 +316,78 @@ ul.footer-legal > li:last-child::after {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+}
+.mock-up {
+  padding-right: 0;
+}
+.mock-up img {
+  width: 80%;
+  height: auto;
+}
+
+.iphone-text p {
+  color: #db7a07;
+}
+#fourth-page {
+  background-color: #1d2022;
+  padding: 5rem;
+}
+.iphone-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.iphone-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: self-start;
+}
+#weekly-card {
+  width: 22rem;
+  height: 30rem;
+}
+main h1,
+main h2 {
+  text-align: center;
+  margin: 3rem;
+}
+.featured-recipes,
+.categories {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.categories {
+  padding-bottom: 2rem;
+}
+.featured-recipes .card {
+  width: 30%;
+  padding: 0.5rem 0;
+  margin-bottom: 3rem;
+}
+.featured-recipes .card-body,
+.categories .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-title {
+  text-align: center;
+  margin-top: 1rem;
+}
+.categories .card {
+  width: 15%;
+  padding: 0.5rem 0;
+  margin-bottom: 3rem;
+}
+main .card img {
+  width: 90%;
+  margin: auto;
+  object-fit: cover;
 }
 
 .tomatoSoup {
