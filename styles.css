@@ -167,7 +167,8 @@ p {
 
 .macAndCheese {
 	/* border: 4px solid rgb(81, 18, 87); */
-	background-image: url("https://reisehappen.de/wp-content/uploads/2021/01/MacandCheese-7-720x480.jpg");
+	/* background-image: url("https://reisehappen.de/wp-content/uploads/2021/01/MacandCheese-7-720x480.jpg"); */
 	border-radius: 0.5em;
 	background-repeat: no-repeat;
+  background-image: url("https://www.lidl-kochen.de/images/recipe-wide/860960/mac-and-cheese-mit-salat-134143.jpg");
 }
