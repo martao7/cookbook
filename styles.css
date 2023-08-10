@@ -292,9 +292,12 @@ main h2 {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+.categories {
+	padding-bottom: 2rem;
+}
 .featured-recipes .card {
 	width: 30%;
-	padding: 1rem 0;
+	padding: 0.5rem 0;
 	margin-bottom: 3rem;
 }
 .featured-recipes .card-body,
@@ -310,7 +313,7 @@ main h2 {
 }
 .categories .card {
 	width: 15%;
-	padding: 2rem 0;
+	padding: 0.5rem 0;
 	margin-bottom: 3rem;
 }
 main .card img {
