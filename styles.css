@@ -176,6 +176,7 @@ ul.footer-legal > li:last-child::after {
 .card-body a {
 	background-color: #db7a07;
 	border: none;
+	margin-top: 1rem;
 }
 
 #third-page {
@@ -277,4 +278,43 @@ ul.footer-legal > li:last-child::after {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+}
+main h1,
+main h2 {
+	text-align: center;
+	margin: 3rem;
+}
+.featured-recipes,
+.categories {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.featured-recipes .card {
+	width: 30%;
+	padding: 1rem 0;
+	margin-bottom: 3rem;
+}
+.featured-recipes .card-body,
+.categories .card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.card-title {
+	text-align: center;
+	margin-top: 1rem;
+}
+.categories .card {
+	width: 15%;
+	padding: 2rem 0;
+	margin-bottom: 3rem;
+}
+main .card img {
+	width: 90%;
+	margin: auto;
+	object-fit: cover;
 }
