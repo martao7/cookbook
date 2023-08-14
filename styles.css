@@ -423,3 +423,7 @@ main .card img {
 }
 
 /* end of share Button */
+
+.featured-recipes img {
+  object-fit: cover;
+}
