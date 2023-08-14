@@ -204,16 +204,16 @@ ul.footer-legal > li:last-child::after {
 }
 
 #recipe-site {
-	width: 70%;
-	margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 #picture {
-	/* border: 4px solid red; */
-	width: 100%;
-	margin: auto;
-	width: fit-content;
-	height: auto;
+  /* border: 4px solid red; */
+  width: 100%;
+  margin: auto;
+  width: fit-content;
+  height: auto;
 }
 
 #picture h1 {
@@ -232,32 +232,31 @@ ul.footer-legal > li:last-child::after {
 }
 
 .description {
-	padding-bottom: 60px;
-	width: 80%;
-	margin: auto;
-	text-align: justify;
+  padding-bottom: 60px;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
 }
 .nutriAndIngred {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .nutritions {
-	list-style: none;
-	padding-left: 10px;
-	padding-right: 200px;
-	padding-top: 20px;
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 140px;
+  padding-top: 20px;
 }
 .nutritions li {
   list-style: none;
   padding-right: 120px;
 }
 .ingredients {
-	padding-left: 100px;
-	padding-right: 150px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-
 
 /* <!-- <about us section> --> */
 
@@ -266,7 +265,7 @@ ul.footer-legal > li:last-child::after {
   background-color: rgb(60, 20, 20);
   width: 100%;
   /* height: 80vh;  */
-	margin: auto;
+  margin: auto;
   padding: 4rem 6rem;
 }
 
@@ -286,15 +285,15 @@ ul.footer-legal > li:last-child::after {
 .ourPhotos {
   /* border: 5px solid rgb(180, 172, 64);  */
   display: flex;
-	flex-wrap: wrap;
-  gap: 80px; 
+  flex-wrap: wrap;
+  gap: 80px;
 }
 
 .ourPhotos > div {
   border: 1px solid rgb(217, 208, 210);
   background-color: none;
   width: 220px;
-} 
+}
 
 .ourPhotos h5 {
   padding-top: 25px;
@@ -308,14 +307,12 @@ ul.footer-legal > li:last-child::after {
 
 /* end of <!-- <about us section> --> */
 
-
-
 .macAndCheese {
-	background-image: url("https://realfood.tesco.com/media/images/1400x919-MacaroniChorizoCheeseBake-df3ec2b6-6733-47ba-b187-bb75985f0bb3-0-1400x919.jpg");
-	width: 100vw;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
+  background-image: url("https://realfood.tesco.com/media/images/1400x919-MacaroniChorizoCheeseBake-df3ec2b6-6733-47ba-b187-bb75985f0bb3-0-1400x919.jpg");
+  width: 100vw;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 .mock-up {
   padding-right: 0;
@@ -393,7 +390,15 @@ main .card img {
 .tomatoSoup {
   background-image: url("https://trinkreif.de/wp-content/uploads/leckere-tomatensuppe-einfach-basilikum-ohne-sahne-rezept.jpg");
   width: 100vw;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.koreanRice {
+  background-image: url("images/Kimchi_Cauliflower_Fried_Rice.jpg");
+  width: 100vw;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
