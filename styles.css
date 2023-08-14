@@ -218,8 +218,8 @@ ul.footer-legal > li:last-child::after {
 
 #picture h1 {
   text-shadow: 0px 0px 30px black;
-  padding-right: 120px;
-  padding-left: 120px;
+  /* padding-right: 450px; */
+  /* padding-left: 120px; */
   padding-top: 400px;
   padding-bottom: 20px;
 }
@@ -263,7 +263,7 @@ ul.footer-legal > li:last-child::after {
 
 #aboutUs {
   /* border: 8px solid yellowgreen;  */
-  background-color: rgb(60, 20, 20);
+  background-color: #121212;
   width: 100%;
   /* height: 80vh;  */
 	margin: auto;
@@ -271,8 +271,8 @@ ul.footer-legal > li:last-child::after {
 }
 
 .ourTeam {
-  /* border: 5px solid rebeccapurple;  */
-  width: 80%;
+  /* border: 5px solid rebeccapurple;   */
+  width: 100%;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -280,30 +280,32 @@ ul.footer-legal > li:last-child::after {
   flex-direction: column;
   text-align: center;
   margin: auto;
-  padding: 2rem 2rem;
+  padding-bottom: 2rem;
 }
 
 .ourPhotos {
-  /* border: 5px solid rgb(180, 172, 64);  */
+   /* border: 5px solid #bbebae;    */
   display: flex;
 	flex-wrap: wrap;
   gap: 80px; 
 }
 
 .ourPhotos > div {
-  border: 1px solid rgb(217, 208, 210);
-  background-color: none;
+  border: 10px solid #ebcfae;
+  background-color: #ebcfae;
   width: 220px;
 } 
 
 .ourPhotos h5 {
   padding-top: 25px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  color: #db7a07;
 }
 
 .ourTeam h1 {
   /* border: 8px solid rgb(205, 97, 50);  */
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  color: #db7a07;
 }
 
 /* end of <!-- <about us section> --> */
@@ -397,3 +399,23 @@ main .card img {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
+
+/* share Button */
+
+.shareRecipe {
+  text-align: end;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#shareButton {
+  background-color: #dd8212;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 1.20rem; 
+  color: rgb(237, 232, 232);  
+  background-position: 50% 50%;
+
+}
+
+/* end of share Button */
