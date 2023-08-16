@@ -351,7 +351,7 @@ main h2 {
   text-align: center;
   margin: 0;
 }
-.featured-recipes {
+.featured-recipes h1, .categories h1{
   margin: 3rem;
 }
 .featured-recipes,
