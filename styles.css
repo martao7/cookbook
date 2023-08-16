@@ -351,6 +351,9 @@ main h2 {
   text-align: center;
   margin: 0;
 }
+.featured-recipes {
+  margin: 3rem;
+}
 .featured-recipes,
 .categories {
   width: 80%;
