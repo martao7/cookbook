@@ -10,6 +10,7 @@ In this project we used the following tech stack:
 The website shows a static list of recipes. 
 Each of recipe is composed of: Title, Description, Image and Table with ingredients.
 
+////////
 ## Live Demo
 
 [Click here to see the live demo!](https://netlify.app/) 🍳
