@@ -12,5 +12,5 @@ Each of recipe is composed of: Title, Description, Image and Table with ingredie
 
 ## Live Demo
 
-[Click here to see the live demo!](https://orbitgaming.netlify.app/) 🍳
+[Click here to see the live demo!](https://netlify.app/) 🍳
 
