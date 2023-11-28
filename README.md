@@ -1,4 +1,4 @@
-# 🍟CookBook 🍔
+# 🍔 CookBook 🍟
 
 ### Technologies
 In this project we used the following tech stack:
